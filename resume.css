@@ -1,0 +1,169 @@
+*{
+    background-image: url(type.jpg);
+    background-attachment: fixed  ;
+    border: 40px;
+    background-size:cover ;
+}
+.block{
+    color: #f9f6f6;
+    text-align: right;
+    /* margin-top: -4vh; */
+    padding-top: 4vh;
+    padding-right: 5vh;
+    font-size: 3vh;  
+}
+.block span a{
+    text-decoration: none;
+    /* text-justify: inherit; */
+    letter-spacing: 4px; 
+    color: aliceblue;
+    display: inline-block;
+    padding: 0px 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    /* justify-content: space-between; */
+    /* font-family: "Montserrat",sans-serif; */
+    
+}
+.software p{
+    top: -1.5vh;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    font-size: 3.5vh;
+    text-decoration: none; /* Remove the default underline */
+    color:#f9f6f6; /* Set the text color to black */
+    position: relative; /* Set the position to relative to enable positioning the underline */
+}
+
+.software p::after{
+    content: ''; /* Create an empty pseudo-element */
+    position: absolute; /* Position it absolutely relative to its parent */
+    left: 5.4vh; /* Align it with the left edge of the parent element */
+    bottom: -2px; /* Adjust the distance from the text for the underline */
+    width: 15.7%; /* Make the underline span the full width of the parent element */
+    height: 2px; /* Set the height of the underline */
+    background-color: rgb(4, 95, 125); /* Set the blue color for the underline */
+  }
+
+
+.listof{
+    padding-left: 5vh;
+    color: white;
+    
+}
+.titles{
+    padding-left: 12.4vh;
+    margin-top: -45vh;
+    
+}
+.titles span{
+    line-height:3.6;
+    letter-spacing: 0.32vh;
+}
+.languages p{
+    top: -1.5vh;
+    padding-left: 5vh;
+    font-size: 3.5vh;
+    text-decoration: none; /* Remove the default underline */
+    color: #f9f6f6; /* Set the text color to black */
+    position: relative;  
+
+}
+.languages p::after{
+    content: ''; /* Create an empty pseudo-element */
+    position: absolute; /* Position it absolutely relative to its parent */
+    left: 5.4vh; /* Align it with the left edge of the parent element */
+    bottom: -2px; /* Adjust the distance from the text for the underline */
+    width: 10.7%; /* Make the underline span the full width of the parent element */
+    height: 2px; /* Set the height of the underline */
+    background-color: rgb(4, 95, 125); /* Set the blue color for the underline */
+   
+}
+.lang{
+    margin-top: -4vh;
+    padding-left: 5vh;
+    color: #f9f6f6;
+    line-height:2.5em;
+    letter-spacing: 2px;
+    
+}
+.lang input[type="range"] {
+    accent-color: rgb(106, 83, 59);
+    
+  }
+
+.experience{
+    padding-left: 77vh;
+    margin-top: -92vh;
+    
+}
+.experience p{
+    color: #f9f6f6;
+    
+    
+}
+.experience img{
+    padding-left: 5vh;
+}
+
+.experience nav{
+    color: #f9f6f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 14vh;
+    margin-top: -6.4vh;
+
+}
+#trainee{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.education{
+    color: #f9f6f6;
+    padding-left:75vh ;
+    padding-top: 7vh;
+    /* margin-top: -12px; */
+}
+.education p{
+    color: #f9f6f6;
+}
+.education img{
+    padding-left: 5vh;
+}
+.education nav{
+    color: #f9f6f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 13.5vh;
+    margin-top: -5.2vh;
+}
+.hobbies{
+    color: #f9f6f6;
+    padding-left:75vh ;
+    padding-top: 3vh;
+}
+.hobbies img{
+    padding-left: 5vh;
+}
+.hobbies nav{
+    color: #f9f6f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-left: 13.5vh; */
+    margin-top: -0.9vh;
+    line-height: 2;
+}
+
+
+
+.personalskills{
+    color: #f9f6f6;
+    padding-left:150vh ;
+    margin-top: -88vh;
+}
+.personalskills p{
+    color: #f9f6f6;
+}
+.personalskills nav {
+    line-height:2.5em ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* list-style-type: square; */
+    padding-left: 6vh;
+    
+}

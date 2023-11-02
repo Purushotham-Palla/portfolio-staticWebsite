@@ -1,0 +1,15 @@
+*{
+    background-image: url(contactme.jpg);
+    background-attachment: fixed  ;
+    background-size:cover ;
+    border: 10px;
+}
+
+#name,#phn,#fed,#submit {
+    padding: 10px;
+    /* font-size: 18px; */
+    border: 2px solid #121111; /* Set the initial border color here */
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
